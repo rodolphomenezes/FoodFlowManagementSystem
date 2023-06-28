@@ -1,5 +1,6 @@
 import * as React from 'react';
+import styles from './styles.module.scss';
 
 export const Ffms = () => {
-    return (<h1>Food Flow Management System</h1>)
+    return (<div className={styles.header}>Food Flow Management System</div>)
 }
