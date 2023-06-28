@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "food-flow-management-system-client-side-solution",
+    "id": "3af38ad5-00f7-41e4-9cb4-4fa4a38b22b9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FoodFlowManagementSystem description"
+      },
+      "longDescription": {
+        "default": "FoodFlowManagementSystem description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "food-flow-management-system Feature",
+        "description": "The feature that activates elements of the food-flow-management-system solution.",
+        "id": "ebbf26e5-08c1-4b62-bc29-b641de6fad5b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/food-flow-management-system.sppkg"
+  }
+}

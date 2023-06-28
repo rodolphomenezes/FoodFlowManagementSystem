@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "food-flow-management-system-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/foodFlowManagementSystem/FoodFlowManagementSystemWebPart.js",
+          "manifest": "./src/webparts/foodFlowManagementSystem/FoodFlowManagementSystemWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FoodFlowManagementSystemWebPartStrings": "lib/webparts/foodFlowManagementSystem/loc/{locale}.js"
+  }
+}
