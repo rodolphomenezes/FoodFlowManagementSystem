@@ -1,5 +1,36 @@
 .header {
     width: 100%;
-    height: 50px;
-    background: #ff0000;
+    height: 100px;
+    background: #C54925;
+
+    .container {
+        width: 100%;
+        max-width: 1600px;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .logo {
+            display: flex;
+            flex-direction: row;
+    
+            img{
+                width: 100px;
+                height: 80px;
+                margin-right: 20px;
+            }
+            p {
+                font-size: 24px;
+                line-height: 80px;
+                color: #fff;
+            }
+        }
+        .logout img{
+            width: 36px;
+        }
+    }
 }
+
+
